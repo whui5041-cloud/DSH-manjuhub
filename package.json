@@ -1,0 +1,43 @@
+{
+  "name": "manju-skill-hub",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "漫剧技能中枢：本机漫剧技能全览、GitHub 开源技能定时探测、每日安装提醒",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "short-drama",
+    "manju",
+    "skill-hub",
+    "ai-short-drama"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

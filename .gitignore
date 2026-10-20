@@ -1,0 +1,15 @@
+# 依赖与本地工具
+node_modules/
+.tools/
+*.log
+
+# DSH 运行时数据（绝不提交）
+state.json
+backups/
+history/
+exports/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="漫剧技能中枢">
+  <defs>
+    <linearGradient id="msh-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b1a4a"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+    <linearGradient id="msh-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a3d"/>
+      <stop offset="1" stop-color="#ff5f7e"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#msh-bg)"/>
+  <rect x="12" y="17" width="28" height="20" rx="4" fill="none" stroke="#9fd0ff" stroke-width="2.6"/>
+  <path d="M12 24h28" stroke="#9fd0ff" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M18 17v7M26 17v7M34 17v7" stroke="#9fd0ff" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M18 31l7 3-7 3z" fill="#9fd0ff"/>
+  <path d="M38 34l12 3-9 6-3-5z" fill="url(#msh-accent)"/>
+  <path d="M44 12l1.6 4.4L50 18l-4.4 1.6L44 24l-1.6-4.4L38 18l4.4-1.6z" fill="#ffd166"/>
+  <circle cx="50" cy="47" r="3" fill="#6ee7c8"/>
+</svg>

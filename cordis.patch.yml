@@ -1,0 +1,12 @@
+# 漫剧技能中枢 —— bundle patch
+# 安装：plugin_manager install_bundle（目标为本目录绝对路径）。
+- insert:
+    - id: manju-skill-hub
+      name: 'manju-skill-hub'
+      config:
+        domainOnly: true
+        reminderTime: '09:30'
+        remindOnBoot: true
+        githubMinIntervalHours: 6
+        verifyReposPerRun: 10
+        updateCheckPerRun: 15

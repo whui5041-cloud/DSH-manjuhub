@@ -1,0 +1,8 @@
+# 统一换行符，避免 Windows 贡献者提交 CRLF 噪音
+* text=auto eol=lf
+
+# 二进制文件不做文本转换
+*.png binary
+*.jpg binary
+*.zip binary
+*.wav binary
