@@ -68,7 +68,7 @@
 1. 克隆本仓库到任意本地目录：
 
 ```bash
-git clone https://github.com/<your-github-name>/DSH-manjuhub.git
+git clone https://github.com/whui5041-cloud/DSH-manjuhub.git
 cd DSH-manjuhub
 ```
 
